@@ -128,7 +128,7 @@ function App() {
 
       <div onClick={handleSeeAll} className='flex justify-start mb-5'>
         <button className='border border-white px-6 py-2 bg-red-800 cursor-pointer text-white rounded hover:bg-red-950 transition-colors m-auto md:m-10 lg:m-10'>
-          Reset All
+          See All
         </button>
       </div>
 
