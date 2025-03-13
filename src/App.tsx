@@ -81,8 +81,7 @@ function App() {
   }
 
   return (
-    // public/images/backgoundapp.jpg
-    <div className='w-full bg-red-700 bg-contain text-white text-center overflow-hidden'>
+    <div className='w-full bg-red-700 bg-[url(public/images/backgroundapp.jpg)] bg-contain text-white text-center overflow-hidden'>
       <h1 onClick={handleSeeAll} className='lg:w-[43%] m-auto cursor-pointer font-bold text-3xl md:text-4xl lg:text-6xl mb-9 pt-9'>
         Marvel Character Data
       </h1>
