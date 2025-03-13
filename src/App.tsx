@@ -81,9 +81,9 @@ function App() {
   }
 
   return (
-    <div className='w-full bg-red-700 bg-[url(images/backgroundapp.jpg)] bg-contain text-white text-center overflow-hidden'>
+    <div className='w-full bg-[url(images/backgroundapp.jpg)] bg-contain text-white text-center overflow-hidden'>
       <h1 onClick={handleSeeAll} className='lg:w-[43%] m-auto cursor-pointer font-bold text-3xl md:text-4xl lg:text-6xl mb-9 pt-9'>
-        Marvel Character Data.
+        Marvel Character Data
       </h1>
 
       <form onSubmit={handleSearch} className='mb-9 px-4 md:flex md:justify-center lg:flex lg:justify-center'>
